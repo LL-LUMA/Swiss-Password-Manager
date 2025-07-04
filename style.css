@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+input, button {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+}
+
+#savedPasswords {
+  margin-top: 10px;
+  font-size: 0.9em;
+}

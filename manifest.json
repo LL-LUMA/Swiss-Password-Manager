@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Swiss Password Manager",
+  "version": "1.0",
+  "description": "Secure and simple password manager extension.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["http://localhost/swiss/api/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    
+  }
+}

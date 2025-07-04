@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SwissPM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SwissPM</h1>
+
+  <div id="auth">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <button onclick="register()">Register</button>
+  </div>
+
+  <div id="manager" style="display:none;">
+    <input type="text" id="site" placeholder="Website">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="pwd" placeholder="Password">
+    <button onclick="savePassword()">Save</button>
+    <div id="savedPasswords"></div>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
