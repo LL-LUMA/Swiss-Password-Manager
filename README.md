@@ -19,7 +19,7 @@ A secure and lightweight Chrome extension password manager using PHP & MySQL.
 1. Clone the repo
 2. Import `sql/schema.sql` in phpMyAdmin
 3. Run backend from `http://localhost/swiss/api/`
-4. Load the `extension/` directory in Chrome's Extensions page (developer mode)
+4. Load the `chrome-extension/` directory in Chrome's Extensions page (developer mode)
 5. Start saving passwords securely!
 
 ## Security
